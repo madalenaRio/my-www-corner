@@ -11,6 +11,7 @@
     <header>
         <nav class="flex flex-wrap flex-col items-center h-full mx-5 my-5 mt-20">
         <h1 class="mx-5 my-5 px-5 py-3 text-5xl font-mono font-bold underline text-fuchsia-700"> Short Nibbles </h1>
+        <hr class="mx-5 my-5" style="width:50%" , size="4" , color=black>
             
                 <div class="flex flex-wrap flex-row items-center mx-5 my-5 px-5 py-3">
                    <a class="m-2 my-3 px-6 py-2 bg-purple-500 text-xl text-white cursor-pointer rounded-lg
@@ -28,7 +29,7 @@
                 </div>
                 
         
-            <hr class="m-5 my-5" style="width:100%" , size="4" , color=black>
+            <hr class="mx-5 my-5" style="width:50%" , size="4" , color=black>
         </nav>
        
     </header>
