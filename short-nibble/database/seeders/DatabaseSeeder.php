@@ -2,7 +2,9 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Http\Controllers\AuthorsController;
+use App\Models\Story;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -14,11 +16,17 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
-
+        \App\Models\User::factory(150)->create();
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+        \App\Models\Story::factory(250)->create();
+        \App\Models\Author::factory(50)->create();
+
+       $this->call(StoriesTableSeeder::class);
+       $this->call(AuthorsTableSeeder::class);
+       $this->call(UsersTableSeeder::class);
+
     }
 }
