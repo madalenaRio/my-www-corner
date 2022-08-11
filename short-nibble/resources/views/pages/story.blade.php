@@ -13,7 +13,7 @@
                 <h1 class="mx-5 my-5 px-5 py-3 text-5xl text-fuchsia-700">{{$story->title}}</h1>
                 <br>
                 <p>{{$story->content}}</p>
-                <p>Author: </p>
+                <p>Author: {{$story->author->name}}</p>
                 <p>Published: {{$story->publish_date}}</p>
                 <p>Last updated: {{$story->updated_at}}</p>
             </div>

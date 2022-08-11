@@ -8,7 +8,6 @@ use App\Http\Controllers\ForumController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\StoriesController;
-use App\Http\Controllers\StoryDetailController;
 use App\Http\Controllers\AuthorDetailController;
 
 
@@ -25,14 +24,14 @@ use App\Http\Controllers\AuthorDetailController;
 */
 
 Route::get('/', [HomeController::class, 'show'])->name('home');
-Route::get('pages.authors', [AuthorsController::class, 'show'])->name('authors');
+Route::get('pages.authors', [AuthorsController::class, 'index'])->name('authors');
 Route::get('pages.forum', [ForumController::class, 'show'])->name('forum');
 Route::get('pages.login', [LoginController::class, 'show'])->name('login');
 Route::get('pages.register', [RegisterController::class, 'show'])->name('register');
 
 Route::get('pages.stories', [StoriesController::class, 'index'])->name('stories');
-Route::get('pages.storyDetail.{story}', [StoriesController::class, 'show'])->name('storyDetail');
+Route::get('pages.story.{story}', [StoriesController::class, 'show'])->name('story');
 
-Route::get('pages.authorDetail', [AuthorDetailController::class, 'show'])->name('authorDetail');
+Route::get('pages.author', [AuthorDetailController::class, 'show'])->name('authorDetail');
 
 

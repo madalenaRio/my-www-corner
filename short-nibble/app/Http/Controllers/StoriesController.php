@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Author;
 use App\Models\Story;
 use Illuminate\Http\Request;
 
@@ -15,9 +14,8 @@ class StoriesController extends Controller
      */
     public function index()
     {
-        $author = Author::find('author_id');
         $stories = Story::inRandomOrder()->limit(5)->get();
-        return view('pages.stories')->with("stories", $stories)->with($author);
+        return view('pages.stories')->with("stories", $stories);
     }
 
     /**
@@ -50,7 +48,7 @@ class StoriesController extends Controller
     public function show($id)
     {
         $story = Story::find($id);
-        return view('pages.storyDetail')->with("story",$story);
+        return view('pages.story')->with("story",$story);
     }
 
     /**
