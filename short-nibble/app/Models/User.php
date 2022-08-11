@@ -53,9 +53,9 @@ class User extends Authenticatable
         $this->attributes['password'] = bcrypt($password); //to encrypt the password so its not visible in the Database
     }
 
-    public function posts()
+    public function stories()
     {
-        return $this->hasMany(Post::class);
+        return $this->hasMany(Story::class);
     }
 
 }

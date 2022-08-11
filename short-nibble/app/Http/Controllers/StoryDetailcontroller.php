@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Story;
 use Illuminate\Http\Request;
 
 class StoryDetailcontroller extends Controller
 {
-    public function show()
+    public function show($id)
     {
-        return view('pages/storyDetail');
+       //
     }
 }

@@ -3,7 +3,7 @@
 
 <section class="flex flex-wrap flex-row justify-center">
         <div class="flex flex-wrap flex-col items-center">
-            <p>this shows the route for authors is working</p>
+            <p>this shows the route for authors detail is working</p>
         </div>
 </section>
 

@@ -25,13 +25,14 @@ use App\Http\Controllers\AuthorDetailController;
 */
 
 Route::get('/', [HomeController::class, 'show'])->name('home');
-Route::get('pages/authors', [AuthorsController::class, 'show'])->name('authors');
-Route::get('pages/forum', [ForumController::class, 'show'])->name('forum');
-Route::get('pages/login', [LoginController::class, 'show'])->name('login');
-Route::get('pages/register', [RegisterController::class, 'show'])->name('register');
-Route::get('pages/stories', [StoriesController::class, 'show'])->name('stories');
+Route::get('pages.authors', [AuthorsController::class, 'show'])->name('authors');
+Route::get('pages.forum', [ForumController::class, 'show'])->name('forum');
+Route::get('pages.login', [LoginController::class, 'show'])->name('login');
+Route::get('pages.register', [RegisterController::class, 'show'])->name('register');
 
-Route::get('pages/storyDetail', [StoryDetailController::class, 'show'])->name('storyDetail');
-Route::get('pages/authorDetail', [AuthorDetailController::class, 'show'])->name('authorDetail');
+Route::get('pages.stories', [StoriesController::class, 'index'])->name('stories');
+Route::get('pages.storyDetail.{story}', [StoriesController::class, 'show'])->name('storyDetail');
+
+Route::get('pages.authorDetail', [AuthorDetailController::class, 'show'])->name('authorDetail');
 
 
