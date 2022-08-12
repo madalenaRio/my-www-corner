@@ -8,7 +8,6 @@ use App\Http\Controllers\ForumController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\StoriesController;
-use App\Http\Controllers\AuthorDetailController;
 
 
 
@@ -36,5 +35,8 @@ Route::get('pages.stories', [StoriesController::class, 'index'])->name('stories'
 Route::get('pages.story.{story}', [StoriesController::class, 'show'])->name('story');
 
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
-
+require __DIR__.'/auth.php';

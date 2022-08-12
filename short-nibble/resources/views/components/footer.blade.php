@@ -1,7 +1,7 @@
 </body>
 <br>
 <br>
-<footer class="m-8 flex flex-wrap flex-row justify-center">
+<footer class="mx-8 my-10 flex flex-wrap flex-row justify-center">
         <div class="items-center">
                 <p class="text-fuchsia-600">
                 &copy; BeCode - Campus Ghent -
