@@ -8,7 +8,7 @@
             <ul style="list-style: none; color:black items-center">
                 @foreach ($authors as $author)
                 <li class="text-3xl font-semibold text-fuchsia-900 hover:bg-violet-900 hover:text-yellow-50">
-                    <a href="{{route('author', $author->id)}}">{{$auhtor->name}}</a>
+                    <a href="{{route('author', $author->id)}}">{{$author->name}}</a>
                 </li>
                 <hr class="mx-5 my-5" style="width:50%" , size="4" , color=black>
                 @endforeach

@@ -18,6 +18,7 @@ class AuthorFactory extends Factory
     {
         return [
             'name' => fake()->name(),
+            'imgURL' => $this->faker->imageUrl(640,480),
         ];
     }
 }
