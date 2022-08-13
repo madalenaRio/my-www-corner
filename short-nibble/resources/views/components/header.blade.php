@@ -6,9 +6,11 @@
         @vite('resources/js/app.js')
         <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>
         <title>Short-Nibbles</title>
+       
     </head>
     
 <body class="flex flex-wrap flex-col justify-center">
+ 
     <header>
         <nav class="flex flex-wrap flex-col items-center h-full mx-5 my-5 mt-20">
         <h1 class="mx-5 my-5 px-5 py-3 text-7xl font-mono font-bold overline text-fuchsia-700"> Short Nibbles </h1>
