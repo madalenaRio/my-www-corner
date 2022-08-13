@@ -22,7 +22,7 @@ use App\Http\Controllers\StoriesController;
 |
 */
 
-Route::get('/', [HomeController::class, 'show'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('pages.authors', [AuthorsController::class, 'index'])->name('authors');
 Route::get('pages.author.{author}', [AuthorsController::class, 'show'])->name('author');
@@ -37,6 +37,6 @@ Route::get('pages.story.{story}', [StoriesController::class, 'show'])->name('sto
 
 Route::get('/dashboard', function () {
     return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+})->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
