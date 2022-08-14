@@ -29,6 +29,6 @@ class RegisterController extends Controller
         User::create($attributes);
         //dd('congratulations you are a looney');
       
-       return redirect('/')->with('message','You are a Looney!');
+       return redirect('/')->with('message','Success! You are a Looney!');
     }
 }
