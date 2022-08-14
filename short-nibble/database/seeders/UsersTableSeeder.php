@@ -19,52 +19,62 @@ class UsersTableSeeder extends Seeder
             [
                 'name' => 'Buggs Bunny',
                 'email' => 'bunny@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'Buggo Bunny',
+                'password' => '123456789' // password
             ],
             [
                 'name' => "Wile E. Coyote",
                 'email' => 'coyote@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'Doggo',
+                'password' => '123456789' // password
             ],
             [
                 'name' => "Elmer Fudd",
                 'email' => 'fudd@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'Elmer',
+                'password' => '123456789' // password
             ],
             [
                 'name' => "Daffy Duck",
                 'email' => 'duck@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'Ducko',
+                'password' => '123456789' // password
             ],
             [
                 'name' => "Granny",
                 'email' => 'granny@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'Gran Gran',
+                'password' => '123456789' // password
             ],
             [
                 'name' => "Pepé Le Pew",
                 'email' => 'pew@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'Le Pew',
+                'password' => '123456789' // password
             ],
             [
                 'name' => "Sylvester",
                 'email' => 'sylvester@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'Miau',
+                'password' => '123456789' // password
             ],
             [
                 'name' => "Porky Pig",
                 'email' => 'pig@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'Pigglet',
+                'password' => '123456789' // password
             ],
             [
                 'name' => "Road Runner", 
                 'email' => 'runner@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'The Runner',
+                'password' => '123456789' // password
             ],
             [
                 'name' => "Tweety",
                 'email' => 'tweety@accme.com',
-                'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                'username' => 'Piu Piu',
+                'password' => '123456789' // password
             ],
         ];
 
