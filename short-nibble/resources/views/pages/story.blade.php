@@ -1,4 +1,4 @@
-@extends('components.body')
+@extends('components.layout')
 @section('content')
 
 <section class="flex flex-wrap flex-row justify-center">
