@@ -30,7 +30,9 @@ Route::get('pages.author.{author}', [AuthorsController::class, 'show'])->name('a
 
 Route::get('pages.forum', [ForumController::class, 'show'])->name('forum');
 Route::get('pages.login', [LoginController::class, 'show'])->name('login');
+
 Route::get('pages.register', [RegisterController::class, 'show'])->name('register');
+Route::post('pages.register', [RegisterController::class, 'store'])->name('store');
 
 Route::get('pages.stories', [StoriesController::class, 'index'])->name('stories');
 Route::get('pages.story.{story}', [StoriesController::class, 'show'])->name('story');
