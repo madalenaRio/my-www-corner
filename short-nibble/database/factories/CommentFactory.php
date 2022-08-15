@@ -19,7 +19,7 @@ class CommentFactory extends Factory
         return [
             'title' => fake()->unique()->realText($maxNBChars = 30),
             'content' => fake()->realText($maxNBChars = 180),
-            'user_id' => fake()->numberBetween(1, 300),
+            'user_id' => fake()->numberBetween(1, 150),
             'story_id'=> fake()->numberBetween(1, 254),
             'publish_date'=> fake()->date(),
         ];
