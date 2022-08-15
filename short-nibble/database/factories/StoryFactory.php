@@ -19,7 +19,7 @@ class StoryFactory extends Factory
         return [
             'title' => fake()->unique()->realText($maxNBChars = 30),
             'content' => fake()->realText($maxNBChars = 300),
-            'author_id' => fake()->numberBetween(1, 60),
+            'user_id' => fake()->numberBetween(1, 60),
             'publish_date'=> fake()->date(),
             'imgURL' => fake()->imageUrl(640,480),
         ];

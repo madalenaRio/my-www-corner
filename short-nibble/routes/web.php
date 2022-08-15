@@ -27,7 +27,9 @@ Route::get('/', [HomeController::class, 'show'])->name('home');
 Route::get('pages.authors', [AuthorsController::class, 'index'])->name('authors');
 Route::get('pages.author.{author}', [AuthorsController::class, 'show'])->name('author');
 
-Route::get('pages.forum', [ForumController::class, 'show'])->name('forum');
+Route::get('pages.forum', [ForumController::class, 'index'])->name('forum');
+Route::get('pages.user.{comments}',[ForumController::class, 'showUser'])->name('user');
+Route::get('pages.comment.{comments}',[ForumController::class, 'showComment'])->name('comment');
 
 Route::get('pages.register', [RegisterController::class, 'show'])->name('register')->middleware('guest');
 Route::post('pages.register', [RegisterController::class, 'store'])->name('store')->middleware('guest');

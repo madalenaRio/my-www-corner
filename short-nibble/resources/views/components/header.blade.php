@@ -18,18 +18,18 @@
             <h2 class="justify-center items-center px-5 py-3 text-amber-600 text-2xl overline">
                 A community of casual looney writers lurks around here, beware not to fall in this "rabbit whole doc"!
             </h2>
-            <hr class="mx-5 my-5" style="width:50%" , size="4" , color=black>
+            <hr class="mx-0 my-0 ">
 
-            <div class="flex flex-wrap flex-row items-center mx-5 my-5 px-5 py-3">
-                <a class="m-2 my-3 px-6 py-2 bg-purple-500 text-xl text-white cursor-pointer rounded-lg
-                    hover:bg-purple-200 hover:text-yellow-600 active:bg-amber-500" href="{{route('home')}}">home</a>
-                <a class="m-2 my-3 px-6 py-2 bg-purple-500 text-xl text-white cursor-pointer rounded-lg
-                    hover:bg-purple-200 hover:text-yellow-600 active:bg-amber-500" href="{{route('stories')}}">stories</a>
-                <a class="m-2 my-3 px-6 py-2 bg-purple-500 text-xl text-white cursor-pointer rounded-lg
-                    hover:bg-purple-200 hover:text-yellow-600 active:bg-amber-500" href="{{route('authors')}}">authors</a>
-                <a class="m-2 my-3 px-6 py-2 bg-purple-500 text-xl text-white cursor-pointer rounded-lg
-                    hover:bg-purple-200 hover:text-yellow-600 active:bg-amber-500" href="{{route('forum')}}">forum</a>
-                <div class="flex flex-wrap flex-col items-center mx-5 my-5 px-5 py-3">
+            <div class=" items-center mx-5 my-5 px-5 py-3 grid grid-cols-3">
+                <a class="m-2 my-3 px-6 py-2 border-double border-4 border-amber-400 text-xl text-gray cursor-pointer rounded-lg
+                    hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('home')}}">home</a>
+                <a class="m-2 my-3 px-6 py-2 border-double border-4 border-amber-400 text-xl text-gray cursor-pointer rounded-lg
+                    hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('stories')}}">stories</a>
+                <a class="m-2 my-3 px-6 py-2 border-double border-4 border-amber-400 text-xl text-gray cursor-pointer rounded-lg
+                    hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('authors')}}">authors</a>
+                <a class="m-2 my-3 px-6 py-2 border-double border-4 border-amber-400 text-xl text-gray cursor-pointer rounded-lg
+                    hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('forum')}}">forum</a>
+             
                     @auth
                     <span class="m-2 my-1 px-6 py-2 text-xl uppercase bg-blue-500 text-white rounded-lg">
                         Welcome back, {{ auth()->user()->name }} you looney you!
@@ -44,16 +44,16 @@
 
 
                     @else
-                    <a class="m-2 my-3 px-6 py-2 bg-purple-500 text-xl text-white cursor-pointer rounded-lg
-                    hover:bg-purple-200 hover:text-yellow-600 active:bg-amber-500" href="{{route('login')}}">
+                    <a class="m-2 my-3 px-6 py-2 bg-amber-500 text-xl text-white cursor-pointer rounded-lg
+                    hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('login')}}">
                         login
                     </a>
-                    <a class="m-2 my-3 px-6 py-2 bg-purple-500 text-xl text-white cursor-pointer rounded-lg
-                    hover:bg-purple-200 hover:text-yellow-600 active:bg-amber-500" href="{{route('register')}}">
+                    <a class="m-2 my-3 px-6 py-2 bg-amber-500 text-xl text-white cursor-pointer rounded-lg
+                    hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('register')}}">
                         become a Looney
                     </a>
                     @endauth
-                </div>
+          
 
             </div>
 

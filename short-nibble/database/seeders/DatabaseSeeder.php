@@ -22,11 +22,9 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         \App\Models\Story::factory(250)->create();
-        \App\Models\Author::factory(50)->create();
         \App\Models\Comment::factory(300)->create();
 
        $this->call(StoriesTableSeeder::class);
-       $this->call(AuthorsTableSeeder::class);
        $this->call(UsersTableSeeder::class);
        $this->call(CommentsTableSeeder::class);
 

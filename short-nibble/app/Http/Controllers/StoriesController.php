@@ -16,11 +16,9 @@ class StoriesController extends Controller
     {
         // $stories = Story::inRandomOrder()->limit(5)->get();
         // return view('pages.stories')->with("stories", $stories);
-
         return view('pages.stories',$stories = [
             'stories' => Story::orderBy('updated_at','desc')->paginate(5)->onEachSide(0)
         ]);
-
     }
 
     /**
@@ -64,7 +62,7 @@ class StoriesController extends Controller
      */
     public function edit($id)
     {
-        //
+        //     
     }
 
     /**

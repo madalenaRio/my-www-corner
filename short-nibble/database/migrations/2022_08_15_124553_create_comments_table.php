@@ -17,7 +17,8 @@ return new class extends Migration
             $table->id(); 
             $table->string('title')->nullable();
             $table->text('content')->nullable();
-            $table->foreignId('user_id')->nullable();
+            $table->foreignId('user_id')->nullable();;
+            $table->foreignId('story_id')->nullable();
             $table->date('publish_date')->nullable();
             $table->timestamps();
         });
