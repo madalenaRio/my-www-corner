@@ -9,8 +9,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\StoriesController;
 use App\Http\Controllers\AuthorDetailController;
-
-
+use App\Http\Controllers\SessionsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,10 +28,13 @@ Route::get('pages.authors', [AuthorsController::class, 'index'])->name('authors'
 Route::get('pages.author.{author}', [AuthorsController::class, 'show'])->name('author');
 
 Route::get('pages.forum', [ForumController::class, 'show'])->name('forum');
-Route::get('pages.login', [LoginController::class, 'show'])->name('login');
 
-Route::get('pages.register', [RegisterController::class, 'show'])->name('register');
-Route::post('pages.register', [RegisterController::class, 'store'])->name('store');
+Route::get('pages.register', [RegisterController::class, 'show'])->name('register')->middleware('guest');
+Route::post('pages.register', [RegisterController::class, 'store'])->name('store')->middleware('guest');
+
+Route::post('login', [SessionsController::class, 'store'])->middleware('guest');
+Route::get('pages.login', [LoginController::class, 'show'])->name('login')->middleware('guest');
+Route::post('logout', [SessionsController::class, 'destroy'])->middleware('auth');
 
 Route::get('pages.stories', [StoriesController::class, 'index'])->name('stories');
 Route::get('pages.story.{story}', [StoriesController::class, 'show'])->name('story');

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\User;
 use Illuminate\Contracts\Session\Session;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session as FacadesSession;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\Unique;
@@ -26,8 +27,11 @@ class RegisterController extends Controller
             'password' => 'required|max:255|min:7'
         ]);
 
-        User::create($attributes);
+        $user = User::create($attributes);
         //dd('congratulations you are a looney');
+
+        //log the user in
+        auth()->login($user);
       
        return redirect('/')->with('message','Success! You are a Looney!');
     }
