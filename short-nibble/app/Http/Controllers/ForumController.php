@@ -12,21 +12,40 @@ class ForumController extends Controller
     public function index()
     {
         return view('pages.forum', $comments = [
-            'comments' => Comment::orderBy('updated_at','desc')->paginate(5)->onEachSide(0)
+            'comments' => Comment::orderBy('updated_at', 'desc')->paginate(5)->onEachSide(0)
         ]);
     }
 
     public function showUser($id)
-    {   
+    {
         $user = User::find($id);
         $comments = $user->comments;
-        return view('pages.user')->with("user",$user)->with('comments', $comments);
+        return view('pages.user')->with("user", $user)->with('comments', $comments);
     }
 
     public function showComment($id)
     {
         $comment = Comment::find($id);
-        return view('pages.comment')->with("comment",$comment);
+        return view('pages.comment')->with("comment", $comment);
     }
+
+    public function createComment(Story $comment)
+    {
+        request()->validate([
+            'content' => 'required'
+        ]);
+
+        $comment->comments()->create([
+            'user_id' => request()->user()->id,
+            'story_id' => request('story_id'),
+            'title' => request('title'),
+            'content' => request('content'),
+        ]);
+
+        return back();
+
+    }
+
+
 
 }

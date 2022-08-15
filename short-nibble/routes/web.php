@@ -30,6 +30,8 @@ Route::get('pages.author.{author}', [AuthorsController::class, 'show'])->name('a
 Route::get('pages.forum', [ForumController::class, 'index'])->name('forum');
 Route::get('pages.user.{comments}',[ForumController::class, 'showUser'])->name('user');
 Route::get('pages.comment.{comments}',[ForumController::class, 'showComment'])->name('comment');
+Route::post('pages.comment',[ForumController::class, 'createComment'])->name('createcomment');
+
 
 Route::get('pages.register', [RegisterController::class, 'show'])->name('register')->middleware('guest');
 Route::post('pages.register', [RegisterController::class, 'store'])->name('store')->middleware('guest');
