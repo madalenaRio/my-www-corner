@@ -31,13 +31,13 @@
                     hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('forum')}}">forum</a>
              
                     @auth
-                    <span class="m-2 my-1 px-6 py-2 text-xl uppercase bg-blue-500 text-white rounded-lg">
+                    <span class="m-2 my-1 px-6 py-2 text-xl uppercase bg-amber-100 text-yellow-800 rounded-lg">
                         Welcome back, {{ auth()->user()->name }} you looney you!
                     </span>
 
                     <form method="POST" action="/logout">
                         @csrf
-                        <button type="submit" class="m-2 my-1 px-6 py-2 text-sm uppercase bg-blue-500 text-white rounded-lg">
+                        <button type="submit" class="m-2 my-1 px-6 py-2 font-bold text-md uppercase border-double border-4 border-yellow-800 text-amber-800 rounded-lg hover:bg-amber-800 hover:text-white">
                             Get me Out of this looney bin!
                         </button>
                     </form>

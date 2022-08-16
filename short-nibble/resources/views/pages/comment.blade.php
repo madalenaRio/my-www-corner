@@ -36,13 +36,13 @@
                     </div>
             </form>
         </section>
-        <section name="commentsListSection">
-        <div class="w-96 mx-5 my-5 px-5 py-3 flex flex-wrap flex-col justify-center">
+        <section class="flex justify-center">
+        <div class="w-2/3 mx-5 my-5 px-5 py-3 flex flex-wrap flex-col justify-center items-center">
 
                 <ul style="list-style: none; color:black items-center">
                     @foreach ($allComments as $comment)
-                    <li class="text-xl font-semibold text-fuchsia-900 hover:bg-violet-900 hover:text-yellow-50">
-                        <p>title: {{$comment->title}}</p>
+                    <li class="text-xl text-amber-800">
+                        <span class="text-xl font-thin text-amber-600p-2">title: {{$comment->title}}</span> <span class="px-2 bg-amber-400 text-white">by: {{$comment->user->name}}</span> 
                         <p>content: {{$comment->content}}</p>
                     </li>
                     <hr class="mx-5 my-5" style="width:50%" , size="4" , color=black>
