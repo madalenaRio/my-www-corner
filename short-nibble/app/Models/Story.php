@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use App\Models\Author;
+use App\Models\Comment;
 
 class Story extends Model
 {
@@ -13,7 +13,12 @@ class Story extends Model
 
     public function author()
     {
-     return $this->belongsTo(Author::class); 
+     return $this->belongsTo(User::class, 'user_id'); 
+    }
+
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
     }
    
 }

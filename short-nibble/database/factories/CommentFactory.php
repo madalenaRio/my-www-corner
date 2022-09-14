@@ -5,9 +5,9 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Story>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
  */
-class StoryFactory extends Factory
+class CommentFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -18,10 +18,10 @@ class StoryFactory extends Factory
     {
         return [
             'title' => fake()->unique()->realText($maxNBChars = 30),
-            'content' => fake()->realText($maxNBChars = 300),
-            'user_id' => fake()->numberBetween(1, 60),
+            'content' => fake()->realText($maxNBChars = 180),
+            'user_id' => fake()->numberBetween(1, 150),
+            'story_id'=> fake()->numberBetween(1, 254),
             'publish_date'=> fake()->date(),
-            'imgURL' => fake()->imageUrl(640,480),
         ];
     }
 }

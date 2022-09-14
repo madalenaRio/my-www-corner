@@ -13,10 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('authors', function (Blueprint $table) {
-            $table->id();
-            $table->string('name')->nullable();
-            $table->string('imgURL')->nullable();
+        Schema::create('comments', function (Blueprint $table) {
+            $table->id(); 
+            $table->string('title')->nullable();
+            $table->text('content')->nullable();
+            $table->foreignId('user_id')->nullable();;
+            $table->foreignId('story_id')->nullable();
+            $table->date('publish_date')->nullable();
             $table->timestamps();
         });
     }
@@ -28,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('authors');
+        Schema::dropIfExists('comments');
     }
 };
