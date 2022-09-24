@@ -7,6 +7,7 @@ use App\Models\Story;
 use App\Models\User;
 use Illuminate\Http\Request;
 
+
 class ForumController extends Controller
 {
     public function index()
