@@ -29,7 +29,7 @@
                     hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('authors')}}">authors</a>
                 <a class="m-2 my-3 px-6 py-2 border-double border-4 border-amber-400 text-xl text-gray cursor-pointer rounded-lg
                     hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('forum')}}">forum</a>
-             
+<!--              
                     @auth
                     <span class="m-2 my-1 px-6 py-2 text-xl uppercase bg-amber-100 text-yellow-800 rounded-lg">
                         Welcome back, {{ auth()->user()->name }} you looney you!
@@ -52,7 +52,7 @@
                     hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('register')}}">
                         become a Looney
                     </a>
-                    @endauth
+                    @endauth -->
           
 
             </div>
