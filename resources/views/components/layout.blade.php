@@ -1,6 +1,6 @@
 
 
-@include('components.header')
+@include('components.head')
 
 @yield('content')
 

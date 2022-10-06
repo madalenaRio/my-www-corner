@@ -1,26 +1,17 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    @vite('resources/js/app.js')
-    <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>
-    <title>Short-Nibbles</title>
-</head>
-
 <body class="flex flex-wrap flex-col justify-center items-center">
     <header>
         <nav class="flex flex-wrap flex-col justify-center items-center h-full mx-5 my-5 mt-20">
             <h1 class="mx-5 my-5 px-5 py-4 justify-center items-center text-7xl font-bold text-amber-300 border-double border-4 rounded-lg border-amber-600">
                 Short Nibbles
             </h1>
-            <h2 class="justify-center items-center px-5 py-3 text-amber-600 text-2xl overline">
+            <h2 class="justify-center items-center mx-10 my-10 px-5 py-3 text-amber-600 text-2xl overline">
                 A community of casual looney writers lurks around here, beware not to fall in this "rabbit whole doc"!
             </h2>
-            <hr class="mx-0 my-0 ">
+            <hr>
 
             <div class=" items-center mx-5 my-5 px-5 py-3 grid grid-cols-3">
+            <a class="m-2 my-3 px-6 py-2 border-double border-4 border-purple-400 text-xl text-gray cursor-pointer rounded-lg
+                    hover:bg-purple-100 hover:text-purple-800 active:bg-purple-500" href="{{route('welcome')}}">back to Mad's Corner</a>
                 <a class="m-2 my-3 px-6 py-2 border-double border-4 border-amber-400 text-xl text-gray cursor-pointer rounded-lg
                     hover:bg-amber-100 hover:text-yellow-800 active:bg-amber-500" href="{{route('home')}}">home</a>
                 <a class="m-2 my-3 px-6 py-2 border-double border-4 border-amber-400 text-xl text-gray cursor-pointer rounded-lg

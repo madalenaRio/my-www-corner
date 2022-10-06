@@ -1,15 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Controller;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthorsController;
 use App\Http\Controllers\ForumController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\StoriesController;
-use App\Http\Controllers\AuthorDetailController;
 use App\Http\Controllers\SessionsController;
+use App\Http\Controllers\WelcomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +21,8 @@ use App\Http\Controllers\SessionsController;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('pages/home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [WelcomeController::class, 'welcome'])->name('welcome');
 
 Route::get('pages/authors', [AuthorsController::class, 'index'])->name('authors');
 Route::get('pages/author.{author}', [AuthorsController::class, 'show'])->name('author');

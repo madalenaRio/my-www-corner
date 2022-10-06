@@ -1,4 +1,5 @@
 @extends('components.layout')
+@extends ('components.navbar')
 @section('content')
 
 <section class="m-5 flex flex-wrap flex-row justify-center items-center ">
