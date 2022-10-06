@@ -35,7 +35,7 @@
         <h1>API Projects</h1>
         <div class="items-center mx-5 my-5 px-5 py-3 grid grid-cols-3">
         <a class="m-2 my-3 px-6 py-2 border-double border-4 border-rose-400 text-xl text-gray cursor-pointer rounded-lg
-         hover:bg-rose-100 hover:text-rose-800 active:bg-rose-500" href="https://todaysweatherbymadalenario.netlify.app">Another Wethear App</a>
+         hover:bg-rose-100 hover:text-rose-800 active:bg-rose-500" href="https://todaysweatherbymadalenario.netlify.app">Another Weather App</a>
         </div>
 
     </section>
