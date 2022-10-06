@@ -6,6 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @vite('resources/js/app.js')
     <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>
-    <title>Short-Nibbles</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mad-Corner</title>
 </head>
-
