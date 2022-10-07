@@ -22,7 +22,10 @@ use App\Http\Controllers\WelcomeController;
 */
 
 Route::get('pages/home', [HomeController::class, 'index'])->name('home');
-Route::get('/', [WelcomeController::class, 'welcome'])->name('welcome');
+Route::get('/', [WelcomeController::class, 'showWelcome'])->name('welcome');
+Route::get('pages/skills', [WelcomeController::class, 'showSkills'])->name('skills');
+Route::get('pages/random', [WelcomeController::class, 'showRandom'])->name('random');
+Route::get('pages/about', [WelcomeController::class, 'showAbout'])->name('about');
 
 Route::get('pages/authors', [AuthorsController::class, 'index'])->name('authors');
 Route::get('pages/author.{author}', [AuthorsController::class, 'show'])->name('author');
