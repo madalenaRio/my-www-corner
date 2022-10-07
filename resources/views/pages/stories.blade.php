@@ -1,4 +1,4 @@
-@extends('components.layout')
+@extends('layouts.layout')
 @extends ('components.navbar')
 @section('content')
 
