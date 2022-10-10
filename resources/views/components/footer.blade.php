@@ -7,6 +7,9 @@
                         </p>
                 </div>
         </footer>
+        <div class="h-[32rem] mx-0 my-4 mb-0 py-2 md:py-12 bg-no-repeat bg-cover bg-center bg-[url('images/banner_myCorner_2.jpg')]">
+
+        </div>
 
 </body>
 

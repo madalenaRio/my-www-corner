@@ -1,6 +1,6 @@
 <div class="header-2">
 
-  <div class="py-2 md:py-12 bg-no-repeat bg-cover bg-center bg-[url('images/banner_myCorner_2.jpg')]">
+  <div >
     <div class="container px-4 mx-auto">
 
       <div class="text-center max-w-2xl mx-auto">
@@ -36,6 +36,7 @@
           <p class="text-gray-600">Other stuff I do</p>
         </a>
 
+      
 
       </div>
 
