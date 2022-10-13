@@ -167,7 +167,7 @@
                 <div class="m-4 text-center text-xl text-gray">
                     <p class="text-gray-600">
                         <i>"I live in the Present. </br> 
-                        The Future I do not Know. </br> 
+                        The Future I do not Know. </br>
                         The Past is no longer mine." </i>
                         <b></br>Fernando Pessoa</b>
                     </p>
@@ -175,18 +175,20 @@
             </div>
         
         <div class="z-0 flex flex-col justify-center items-center relative w-3/5 h-3/4 pattern-zigzag pattern-blue-500 pattern-bg-white pattern-size-6">
-            <div class="z-10 w-3/4 justify-center items-center">
+         </div>
+         <div class="z-10 w-42 items-center">
                 <h1 class="flex-end text-center text-3xl m-2">Welcome to my corner!</h1>
-                <h3 class="m-2 text-lg text-center">Snoop around ;)</h3>
-                <svg class="animate-bounce w-14 h-14 object-center object-none absolute bottom" 
-                style="enable-background:new 0 0 512 512;" 
-                version="1.1" viewBox="0 0 512 512" xml:space="preserve" 
-                xmlns="http://www.w3.org/2000/svg" 
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path d="M341.8,461.2c113.3-47.7,166.5-178.3,118.7-291.6S282.2,3.2,168.9,50.9S2.5,229.2,50.3,342.5  C85,425,165.9,478.7,255.4,478.7C285.1,478.7,314.5,472.8,341.8,461.2z M63.4,256.7c0-106,86-192,192-192s192,86,192,192  s-86,192-192,192S63.4,362.7,63.4,256.7z M370.7,284.7L255.4,400L140.1,284.7l21.2-21.2l79.1,79.2V134.5h30v208.2l79.1-79.1  L370.7,284.7z"/>
-                </svg>
-            </div>
-         </div>    
+                <h3 class="m-2 text-2xl font-extrabold text-center"> ;)</h3>
+                
+                    <svg class="animate-bounce w-14 h-14 inset-x-0 bottom-0" 
+                        style="enable-background:new 0 0 512 512;" 
+                        version="1.1" viewBox="0 0 512 512" xml:space="preserve" 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path d="M341.8,461.2c113.3-47.7,166.5-178.3,118.7-291.6S282.2,3.2,168.9,50.9S2.5,229.2,50.3,342.5  C85,425,165.9,478.7,255.4,478.7C285.1,478.7,314.5,472.8,341.8,461.2z M63.4,256.7c0-106,86-192,192-192s192,86,192,192  s-86,192-192,192S63.4,362.7,63.4,256.7z M370.7,284.7L255.4,400L140.1,284.7l21.2-21.2l79.1,79.2V134.5h30v208.2l79.1-79.1  L370.7,284.7z"/>
+                    </svg>
+                
+            </div>    
         </main>
     </div>
 </div>
