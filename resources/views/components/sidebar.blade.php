@@ -33,30 +33,15 @@
                 <!-- End Logo avatar image-->
                 <nav class="flex flex-col flex-1 w-64 p-4 mt-4">
                     <div>
-                        <a href="#" class="flex items-center space-x-2">
-                            <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                            </svg>
-                            <span class="text-2xl font-bold">Madalena Rio</span>
-                        </a>
-                        <h3 class="text-lg text-clip mb-4 ">Junior full-stack webdeveloper</h3>
+                        <h1 class="text-2xl font-bold">Madalena Rio</h1>
+                        <h3 class="text-lg text-clip mb-2 ">Junior full-stack webdeveloper</h3>
                     </div>
-                    <div class="flex flex-row mt-10">
-                        <svg class="w-8 mr-2" aria-hidden="true" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                            <path clip-rule="evenodd" d="M35,22H13C7.477,22,3,17.523,3,12S7.477,2,13,2h22c5.522,0,10,4.477,10,10  S40.522,22,35,22z M35,4H13c-4.418,0-8,3.582-8,8s3.582,8,8,8h22c4.418,0,8-3.582,8-8S39.418,4,35,4z M13,18c-3.313,0-6-2.686-6-6  c0-3.313,2.687-6,6-6s6,2.687,6,6C19,15.314,16.313,18,13,18z M13,8c-2.209,0-4,1.791-4,4c0,2.209,1.791,4,4,4s4-1.791,4-4  C17,9.791,15.209,8,13,8z M13,26h22c5.522,0,10,4.478,10,10s-4.478,10-10,10H13C7.477,46,3,41.522,3,36S7.477,26,13,26z M13,44h22  c4.418,0,8-3.582,8-8s-3.582-8-8-8H13c-4.418,0-8,3.582-8,8S8.582,44,13,44z M35,30c3.313,0,6,2.687,6,6s-2.687,6-6,6s-6-2.687-6-6  S31.687,30,35,30z M35,40c2.209,0,4-1.791,4-4s-1.791-4-4-4s-4,1.791-4,4S32.791,40,35,40z" fill-rule="evenodd" />
-                        </svg>
-                        <span class="text-md uppercase font-black mt-4">Skills</span>
+                    <div class="flex flex-row mt-8">
+                        <h1 class="text-md uppercase font-black mt-2">Skills</h1>
                     </div>
 
                     <!-- Skill icons-->
-                    <section class="flex flex-row flex-wrap mt-4 ">
-
-                        <div class="flex flex-col mt-2 mr-2">
-                            <span class="text-md">GitHub</span>
-                            <svg class="p-2 w-12" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <path clip-rule="evenodd" d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z" fill="#181616" fill-rule="evenodd" />
-                            </svg>
-                        </div>
+                    <section class="flex flex-row flex-wrap mt-2 ">
 
                         <div class="flex flex-col mt-2 mr-2">
                             <span class="text-md">Laravel</span>
@@ -98,7 +83,6 @@
                                 </g>
                             </svg>
                         </div>
-
                         <div class="flex flex-col mt-2 mr-2">
                             <span class="text-md">React</span>
                             <svg style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -130,7 +114,7 @@
                         </div>
                         <div class="flex flex-col mt-2 mr-2">
                             <span class="text-md">Tailwind</span>
-                            <svg class="w-10" fill="none" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                            <svg class="w-9" fill="none" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
                                 <path clip-rule="evenodd" d="M7.5 3C5.63333 3 4.46667 4 4 5.99999C4.7 4.99999 5.51667 4.625 6.45 4.87499C6.98252 5.01763 7.36314 5.43155 7.78443 5.88974C8.47074 6.63613 9.26506 7.49999 11 7.49999C12.8667 7.49999 14.0333 6.49999 14.5 4.5C13.8 5.49999 12.9833 5.87499 12.05 5.62499C11.5175 5.48235 11.1369 5.06844 10.7156 4.61025C10.0293 3.86386 9.23494 3 7.5 3ZM4 7.49999C2.13333 7.49999 0.966667 8.49998 0.5 10.5C1.2 9.49998 2.01667 9.12498 2.95 9.37498C3.48252 9.51762 3.86314 9.93154 4.28443 10.3897C4.97074 11.1361 5.76506 12 7.5 12C9.36667 12 10.5333 11 11 8.99998C10.3 9.99998 9.48333 10.375 8.55 10.125C8.01748 9.98234 7.63686 9.56843 7.21557 9.11023C6.52926 8.36385 5.73494 7.49999 4 7.49999Z" fill-rule="evenodd" stroke="black" stroke-linejoin="round" />
                             </svg>
 
@@ -138,12 +122,44 @@
                     </section>
                     <!-- End Skill icons-->
 
+                    <!-- Contact icons-->
+                    <section class="flex flex-col mt-2">
+                        <h1 class="text-md uppercase font-black mt-2">Contacts</h1>
+
+                        <section class="flex flex-row flex-wrap w-64 p-2">
+
+                            <div class="flex flex-col mt-2 mr-2">
+                                <span class="text-md">Linkedin</span>
+                                <a href="https://linkedin.com/in/madalena-rio-0504a7aa">
+                                    <svg class="w-10" enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g>
+                                            <path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z" />
+                                            <path d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="flex flex-col mt-2 mr-2">
+                                <span class="text-md">Github</span>
+                                <a href="https://github.com/madalenaRio">
+                                    <svg class="w-10" height="64" viewBox="0 0 34 34" width="64" id="Layer_1" version="1.0" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path clip-rule="evenodd" d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z" fill="#181616" fill-rule="evenodd" />
+                                    </svg></a>
+                            </div>
+                            <div class="flex flex-col mt-2 mr-2">
+                                <span class="text-md">email</span>
+                                <a href="mailto:madalena.rio@.com?Subject=upport" style="color: White">
+                                <svg class="w-14 mt-1" height="64" viewBox="0 0 34 34" width="64" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21,7.38246601 L21,5 L3,5 L3,7.38199365 L12.0000224,11.8824548 L21,7.38246601 Z M21,9.61853399 L11.9999776,14.1185452 L3,9.61810635 L3,19 L21,19 L21,9.61853399 Z M3,3 L21,3 C22.1045695,3 23,3.8954305 23,5 L23,19 C23,20.1045695 22.1045695,21 21,21 L3,21 C1.8954305,21 1,20.1045695 1,19 L1,5 C1,3.8954305 1.8954305,3 3,3 Z" fill-rule="evenodd"/>
+                                </svg>
+                                </a>
+                            </div>
+                        </section>
+                    </section>
+                    <!-- End Contact icons-->
+
                 </nav>
-                <div class="flex-shrink-0 p-4">
-                    <button class="flex items-center space-x-2">
-                        <!-- this is a button for the footer -->
-                    </button>
-                </div>
+
             </div>
         </div>
         <main class="flex flex-col items-center justify-center flex-1">
@@ -166,23 +182,19 @@
                 </div>
                 <div class="m-4 mt-20 text-center text-xl text-gray">
                     <p class="text-gray-600">
-                        <i>"I live in the Present. </br> 
-                        The Future I do not Know. </br>
-                        The Past is no longer mine." </i>
+                        <i>"I live in the Present. </br>
+                            The Future I do not Know. </br>
+                            The Past is no longer mine." </i>
                         <b></br>Fernando Pessoa</b>
                     </p>
                 </div>
             </div>
-        
-         <div class="w-42 items-center">              
-                    <svg class="animate-bounce w-14 h-14 inset-x-0 bottom-0" 
-                        style="enable-background:new 0 0 512 512;" 
-                        version="1.1" viewBox="0 0 512 512" xml:space="preserve" 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <path d="M341.8,461.2c113.3-47.7,166.5-178.3,118.7-291.6S282.2,3.2,168.9,50.9S2.5,229.2,50.3,342.5  C85,425,165.9,478.7,255.4,478.7C285.1,478.7,314.5,472.8,341.8,461.2z M63.4,256.7c0-106,86-192,192-192s192,86,192,192  s-86,192-192,192S63.4,362.7,63.4,256.7z M370.7,284.7L255.4,400L140.1,284.7l21.2-21.2l79.1,79.2V134.5h30v208.2l79.1-79.1  L370.7,284.7z"/>
-                    </svg>
-            </div>    
+
+            <div class="w-42 items-center">
+                <svg class="animate-bounce w-14 h-14 inset-x-0 bottom-0" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M341.8,461.2c113.3-47.7,166.5-178.3,118.7-291.6S282.2,3.2,168.9,50.9S2.5,229.2,50.3,342.5  C85,425,165.9,478.7,255.4,478.7C285.1,478.7,314.5,472.8,341.8,461.2z M63.4,256.7c0-106,86-192,192-192s192,86,192,192  s-86,192-192,192S63.4,362.7,63.4,256.7z M370.7,284.7L255.4,400L140.1,284.7l21.2-21.2l79.1,79.2V134.5h30v208.2l79.1-79.1  L370.7,284.7z" />
+                </svg>
+            </div>
         </main>
     </div>
 </div>
