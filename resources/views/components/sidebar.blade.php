@@ -174,7 +174,7 @@
                 </div>
             </div>
         
-         <div class="z-10 w-42 items-center">              
+         <div class="w-42 items-center">              
                     <svg class="animate-bounce w-14 h-14 inset-x-0 bottom-0" 
                         style="enable-background:new 0 0 512 512;" 
                         version="1.1" viewBox="0 0 512 512" xml:space="preserve" 
