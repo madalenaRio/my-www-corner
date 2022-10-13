@@ -174,8 +174,6 @@
                 </div>
             </div>
         
-        <div class="z-0 flex flex-col justify-center items-center relative w-3/5 h-3/4 pattern-zigzag pattern-blue-500 pattern-bg-white pattern-size-6">
-         </div>
          <div class="z-10 w-42 items-center">
                 <h1 class="flex-end text-center text-3xl m-2">Welcome to my corner!</h1>
                 <h3 class="m-2 text-2xl font-extrabold text-center"> ;)</h3>
