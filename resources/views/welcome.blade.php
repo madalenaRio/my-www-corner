@@ -6,13 +6,13 @@
 <section class="flex flex-wrap flex-col justify-center mt-20">
     <div class="flex flex-wrap flex-col justify-center items-center">
 
-        <h1 class="m-4 text-3xl font-bold text-gray-900 dark:text-gray-400">
-            Back-End Projects
+        <h1 id="jumpHere" class="m-4 text-3xl font-bold text-gray-900 dark:text-gray-400">
+            Back End Projects
         </h1>
 
         <section class="flex flex-col flex-wrap w-full justify-center items-center mx-4 my-4 pb-4 pt-4 bg-rose-100">
             <!-- Begin card  -->
-            <div class="w-3/5">
+            <div  class="w-3/5">
                 <a href="{{route('home')}}" class="flex flex-col items-center m-6 pr-4 bg-amber-100 rounded-lg border shadow-md md:flex-row md:max-w-screen hover:bg-blue-200 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                     <img class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/images/ShortNibbles.png" alt="">
                     <div class="flex flex-col justify-between pl-8 p-4 leading-normal">
@@ -86,7 +86,7 @@
         </section>
 
         <h1 class="m-4 text-3xl font-bold text-gray-900 dark:text-gray-400">
-            API Projects
+           Javascript DOM & API Projects
         </h1>
 
         <section class="flex flex-col flex-wrap w-full justify-center items-center mx-4 my-4 pb-4 pt-4 bg-teal-100">

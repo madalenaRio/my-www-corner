@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.image_off, #home:hover .image_on{
+  transition: opacity 1s ease;
+  display:none; 
+ 
+}
+.image_on, #home:hover .image_off{
+  transition: opacity 1s ease;
+  display:block;
+
+}
