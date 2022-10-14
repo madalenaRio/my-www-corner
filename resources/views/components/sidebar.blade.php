@@ -25,10 +25,9 @@
                 <!-- End Close btn -->
 
                 <!-- Logo avatar image-->
-                <div class="flex items-center justify-between flex-shrink-0 w-56 p-5 mt-10">
-              
-                    <a id="home"><img class="image_on object-contain rounded-3xl" src="images/avatar_bw2.jpg" alt="logo" /><img class="image_off object-contain rounded-3xl" src="images/avatar_color.jpg" alt="logo" /></a>
-           
+                <div id="home" class="flex items-center justify-between flex-shrink-0 w-56 p-5 mt-10">
+                    <img class="image_on object-contain rounded-3xl transition duration-1000 ease-out delay-300 hover:delay-300" src="images/avatar_bw2.jpg" alt="logo" />
+                    <img class="image_off object-contain rounded-3xl" src="images/avatar_color.jpg" alt="logo" />
                 </div>
                 <!-- End Logo avatar image-->
                 <nav class="flex flex-col flex-1 w-64 p-4 mt-4">
