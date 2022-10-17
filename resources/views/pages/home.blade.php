@@ -1,5 +1,5 @@
 @extends('layouts.layout')
-@extends ('components.navbar')
+@include ('components.navbar')
 @section('content')
 
 

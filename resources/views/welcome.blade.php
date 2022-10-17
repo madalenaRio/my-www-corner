@@ -1,7 +1,7 @@
 @extends('layouts.layout')
-@extends('components.sidebar')
 @section('content')
 
+@include('components.sidebar')
 
 <section class="flex flex-wrap flex-col justify-center mt-20">
     <div class="flex flex-wrap flex-col justify-center items-center">

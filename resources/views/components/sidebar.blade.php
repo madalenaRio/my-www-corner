@@ -183,11 +183,4 @@
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.1/alpine.js"></script>
-<script>
-    const setup = () => {
-        return {
-            isSidebarOpen: true,
-        }
-    }
-</script>
+
