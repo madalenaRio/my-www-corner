@@ -1,4 +1,6 @@
 @extends('layouts.layout')
+
+
 @section('content')
 
 @include('components.sidebar')
@@ -110,4 +112,5 @@
 
     </div>
 </section>
+
 @endsection

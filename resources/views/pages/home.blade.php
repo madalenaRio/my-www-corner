@@ -1,8 +1,8 @@
 @extends('layouts.layout')
-@include ('components.navbar')
+
+
 @section('content')
-
-
+@include ('components.navbar')
 <section class="flex flex-wrap flex-row justify-center mx-10 my-10">
         <div class="flex flex-wrap flex-col items-center">
             <h1 class="text-3xl">Welcome to the Looney writers comunity!</h1>
