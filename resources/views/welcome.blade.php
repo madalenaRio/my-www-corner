@@ -78,7 +78,7 @@
                         Memory Game
                     </h5>
                     <p class="mb-3 font-normal overflow-clip text-gray-700 dark:text-gray-400 md:max-w-xl">
-                        For this project I followed a toturial online toturial from the youtube channel "developedByEd"
+                        For this project I followed an online toturial from the youtube channel "developedByEd". I confess it was one of my favortite games to make.></div>
                     </p>
                 </div>
             </a>
