@@ -62,7 +62,7 @@
                         Rock Paper Scissors game
                     </h5>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 md:max-w-xl">
-                        This project was a test to my capacity to use conditional statments and loops. Almost got lost is a loop myself !
+                        This project was a test to my capacity to use conditional statements and loops. Almost got lost in a loop myself !
                     </p>
                 </div>
             </a>
