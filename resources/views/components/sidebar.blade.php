@@ -33,7 +33,8 @@
                 <nav class="flex flex-col flex-1 w-64 p-4 mt-4">
                     <div>
                         <h1 class="text-2xl font-bold transition duration-1000 ease-out delay-300 hover:delay-300 hover:text-blue-500">Madalena Rio</h1>
-                        <h3 class="text-lg text-clip mb-2 transition duration-1000 ease-out delay-300 hover:delay-300 hover:text-fuchsia-500 ">Junior full-stack webdeveloper</h3>
+                        <h3 class="text-lg text-clip mb-2 transition duration-1000 ease-out delay-300 hover:delay-300 hover:text-fuchsia-500">Junior full-stack webdeveloper</h3>
+                        <h3 class="text-lg text-clip mb-2 transition duration-1000 ease-out delay-300 hover:delay-300 hover:text-fuchsia-500">Microsoft365 Power Apps Low Code developer</h3>                    
                     </div>
                     <div class="flex flex-row mt-8">
                         <h1 class="text-lg uppercase font-black mt-2 transition duration-1000 ease-out delay-300 hover:delay-300 hover:text-rose-500 ">Skills</h1>
@@ -169,7 +170,6 @@
                             The Past is no longer mine." </i>
                         <b></br>Fernando Pessoa</b>
                     </p>
-                    <p>This will be a test button</p>
                 </div>
             </div>
 
